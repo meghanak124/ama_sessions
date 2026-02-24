@@ -12,14 +12,12 @@
 ------------------------------------------------------------------------
 
 ## 2. Difference Between Tuple and List (Python)
-
-  List                   Tuple
-  ---------------------- ---------------------------
-  Mutable (can change)   Immutable (cannot change)
-  
-  Uses []              Uses ()
-  
-  Slower                 Faster
+------
+ | List         |          Tuple |
+  ---------------------- |---------------------------
+ | Mutable (can change)  | Immutable (cannot change) |
+  Uses []               | Uses () | 
+  Slower                | Faster |
 
 ------------------------------------------------------------------------
 
@@ -40,7 +38,7 @@ Used to sort results.
 
 - ASC → Ascending (default) 
 
-- - DESC → Descending
+- DESC → Descending
 
 Example: SELECT * FROM students ORDER BY marks DESC;
 
@@ -78,14 +76,12 @@ Example: SELECT \* FROM students WHERE name LIKE 'A%';
 ------------------------------------------------------------------------
 
 ## 9. WHERE vs HAVING
-
-  WHERE                   HAVING
-  ----------------------- ---------------------
-  Filters rows            Filters groups
-  
-  Used before GROUP BY    Used after GROUP BY
-  
-  Cannot use aggregates   Can use aggregates
+ ----------------------- | ---------------------
+  WHERE                  | HAVING
+  ----------------------- |---------------------
+  Filters rows            | Filters groups
+  Used before GROUP BY  |  Used after GROUP BY
+  Cannot use aggregates  | Can use aggregates
 
 ------------------------------------------------------------------------
 
@@ -98,12 +94,12 @@ Example: SELECT \* FROM students LIMIT 5;
 ------------------------------------------------------------------------
 
 ## 11. SQL vs NoSQL
-
-  SQL                 NoSQL
-  ------------------- -----------------------------------------
-  Structured tables   Flexible structure
-  Fixed schema        Dynamic schema
-  Uses SQL language   Uses different models (JSON, key-value)
+ ----------------------- | ---------------------
+  SQL                | NoSQL
+  ------------------- | -----------------------------------------
+  Structured tables |  Flexible structure
+  Fixed schema       | Dynamic schema
+  Uses SQL language  | Uses different models (JSON, key-value)
 
 ------------------------------------------------------------------------
 
@@ -149,6 +145,7 @@ WHERE id = 1;
 ------------------------------------------------------------------------
 
 ## 16. How to Sort Dictionary by Values (Python)
+Uses sorted and lambda functions
 
 Example:
 
