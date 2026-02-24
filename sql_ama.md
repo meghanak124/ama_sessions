@@ -12,7 +12,6 @@
 ------------------------------------------------------------------------
 
 ## 2. Difference Between Tuple and List (Python)
-------
  | List         |          Tuple |
   ---------------------- |---------------------------
  | Mutable (can change)  | Immutable (cannot change) |
@@ -76,7 +75,7 @@ Example: SELECT \* FROM students WHERE name LIKE 'A%';
 ------------------------------------------------------------------------
 
 ## 9. WHERE vs HAVING
- ----------------------- | ---------------------
+
   WHERE                  | HAVING
   ----------------------- |---------------------
   Filters rows            | Filters groups
@@ -94,7 +93,6 @@ Example: SELECT \* FROM students LIMIT 5;
 ------------------------------------------------------------------------
 
 ## 11. SQL vs NoSQL
- ----------------------- | ---------------------
   SQL                | NoSQL
   ------------------- | -----------------------------------------
   Structured tables |  Flexible structure
