@@ -9,7 +9,7 @@
 
 ---
 
-## 2. What is Middleware
+## 2. What is Middleware?
 - Middleware is a layer between request and response.
 - It processes requests before reaching views and responses before returning to client.
 
